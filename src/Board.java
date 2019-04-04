@@ -279,7 +279,7 @@ public class Board implements Serializable {
 			StringBuilder qNum = new StringBuilder();
 			// Questions are marked with Q
 			qNum.append("Q");
-			File questionsFile = new File("questions/powerQuestions.txt");
+			File questionsFile = new File("D:/Kellie and Billy/Documents/Eclipse/EstuaryProject/EggSweeper/questions/powerQuestions.txt");
 			// randomly pick a question number 
 			int questionNum = generateQuestionNum(totalQuestions);
 			// empty the list of already asked questions if all questions have been asked
@@ -343,7 +343,7 @@ public class Board implements Serializable {
 			caNum.append("CA");
 			caNum.append(questionNum);
 			caNum.append(":");
-			File questionsFile = new File("questions/answers.txt");
+			File questionsFile = new File("D:/Kellie and Billy/Documents/Eclipse/EstuaryProject/EggSweeper/questions/answers.txt");
 			try {
 				//scan the file for possible answers
 				Scanner fn = new Scanner (questionsFile);
